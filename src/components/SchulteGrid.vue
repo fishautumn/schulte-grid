@@ -3,7 +3,7 @@
     <van-circle v-model="currentRate" :color="circleColor" size="150px">
       <img alt="Grid logo" src="../assets/grid.png" class="logo"/>
     </van-circle>
-    <van-grid :column-num="5" :gutter="5" :square="true" class="grid-wrapper">
+    <van-grid :column-num="7" :gutter="7" :square="true" class="grid-wrapper">
       <template v-for="cell_data in grid_data">
         <van-grid-item :key="cell_data">
           <Cell
@@ -72,7 +72,31 @@ export default {
         22,
         23,
         24,
-        25
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
       ];
       // eslint-disable-next-line
       hub.sort((a, b) => (Math.random() > 0.5 ? -1 : 1));
