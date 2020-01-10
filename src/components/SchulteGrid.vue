@@ -122,7 +122,7 @@ export default {
       }
       this.expected += 1;
       this.currentRate = (this.expected - 1) * 4;
-      if (this.expected === 26) {
+      if (this.expected === 50) {
         this.endTime = Date.now();
         let duration = (this.endTime - this.startTime) / 1000;
         // finished success
